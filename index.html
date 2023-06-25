@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Search and Listing</title>
+  <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  <div class="container">
+    <h1>Candidate Search</h1>
+    <form class="search-form">
+      <div>
+        <label for="location">Location:</label>
+        <select id="location">
+          <option value="">Select Location</option>
+          <option value="london">Chennai</option>
+          <option value="new-york">Bangalore</option>
+          <option value="paris">Coimbatore</option>
+          <option value="tokyo">Trichy</option>
+        </select>
+      </div>
+      <div>
+        <label for="job-role">Job Role:</label>
+        <select id="job-role">
+          <option value="">Select Job Role</option>
+          <option value="developer">Front-end Developer</option>
+          <option value="designer">Designer</option>
+          <option value="project-manager">Project Manager</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Search">
+      </div>
+    </form>
+    
+    <h1>Candidate Listing</h1>
+    <ul class="candidates-list">
+      <li class="candidate">
+        <div class="info">
+          <h2>Aarif</h2>
+          <button>Add to Evaluation</button>
+        </div>
+        <div class="description">
+          <p>Location: Chennai</p>
+          <p>Job Role: Front-end Developer</p>
+          <p>Description: Candidate should have a good knowledge in HTML5, CSS3, JAVASCRIPT.</p>
+        </div>
+      </li>
+      <li class="candidate">
+        <div class="info">
+          <h2>Shakthi</h2>
+          <button>Add to Evaluation</button>
+        </div>
+        <div class="description">
+          <p>Location: Coimbatore</p>
+          <p>Job Role: Designer</p>
+          <p>Description: Candidate should have a creativity and a good knowledge in graphics technology.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
